@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    background: #ECF0F1;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  
+  .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background:#283747;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-sizing: 0px 3px 15px white;
+    padding: 40px 10px 80px 10px;
+    color: white;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  justify-content: center;
+  animation: move 5s infinite;
+  clip-path:circle(50%);
+  }
+  @keyframes move {
+    50%{
+      clip-path:circle(40%);
+    }
+  }
+  h1{
+    margin:0;
+    padding: 0;
+    background: transparent;
+  text-transform: capitalize;
+  
+  }
+  h5{
+    margin:0;
+    padding:5px;
+  
+  }
+  
+  p{
+    margin: 0;
+    padding: 5px;
+    letter-spacing: .8px;
+  }
+  button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #da0c60;
+    border:none;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top:10px;
+    font-weight: 600;
+  
+  }
+  .round div{
+    margin:20px 10px 0px 0px;
+  display: inline-grid;
+  height: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .box1{
+    background-color: #ee004f;
+    color: white;
+  
+  }
+  .box2{
+    background-color: #ee004f;
+    color: white;
+  
+  }
+  .box3{
+    background-color: #ee004f;
+    color: white;
+  
+  }
+  .head{
+    display: flex;
+    justify-content:center;
+  
+  }
+  .title{
+   margin-right: 12px;
+  }
+  
